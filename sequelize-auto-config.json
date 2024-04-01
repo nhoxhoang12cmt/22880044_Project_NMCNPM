@@ -1,0 +1,19 @@
+{
+      "username": "postgres",
+      "password": "DeMon2Evil94",
+      "database": "conferenceIT",
+      "host": "localhost",
+      "dialect": "postgres",
+      "port":5432,
+      "additional": {
+            "timestamps":false
+      },
+      "skipTables":[],
+      "caseModel":"p",
+      "caseProp":"c",
+      "caseFile":"c",
+      "noAllias": true,
+      "singularize": true,
+      "directorty": "./models",
+      "lang": "js"
+}

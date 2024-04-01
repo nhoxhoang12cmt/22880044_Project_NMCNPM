@@ -1,0 +1,16 @@
+{{#each conferences}}
+        <tr>
+                <th scope="row" style="word-wrap: break-word, width=50%"><a href="{{confLink}}" class="text-decoration-none text-danger" target="_blank"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Link to
+                                        web page">{{confName}}</a></th>
+                <td>{{confApplydlDate}}</td>
+                <td>{{confStartDate}}</td>
+                <td>{{confEndDate}}</td>
+                {{#with ConfAddressTb}}
+                        <td>{{address}}</td>
+                {{/with}}
+                {{#with ConfOrganizeTb}}
+                        <td>{{organize}}</td>
+                {{/with}}
+        </tr>
+{{/each}}
