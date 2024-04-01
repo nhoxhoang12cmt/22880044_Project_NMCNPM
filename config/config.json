@@ -15,10 +15,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "conferenceit",
+    "password": "m2xigEWu31BssRrj2RGilymf5a8OA0pN",
+    "database": "conferenceit",
+    "host": "dpg-co5ctbol6cac73de27t0-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432
   }
 }
