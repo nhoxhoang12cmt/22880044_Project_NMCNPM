@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 const expressHandlebars = require('express-handlebars');
-//const {createStarList} = require('./controllers/handlebarsHelper');
 const {createPagination} = require('express-handlebars-paginate')
 app.use(express.static(__dirname + '/public'));
 app.engine('hbs',expressHandlebars.engine({

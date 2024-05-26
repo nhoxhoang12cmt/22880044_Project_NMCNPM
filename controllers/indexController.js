@@ -12,7 +12,7 @@ controller.showHomepage = async (req,res)=>{
             model: models.ConfAddressTb
         }]
     }
-    const limit = 10
+    const limit = 20
     option.limit = limit
     option.offset = limit * (page -1)
     let {rows,count} = await models.ConferenceitTb.findAndCountAll(option)
